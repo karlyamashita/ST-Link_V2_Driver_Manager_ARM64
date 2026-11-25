@@ -1,0 +1,34 @@
+# Rust build output
+/target/
+
+# Generated Windows binaries and debug symbols
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# Local build and distribution output
+/dist/
+/build/
+/out/
+/ST-Link_V2_Driver_Manager_ARM64*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# Local IDE settings
+/.vs/
+/.idea/
+/.vscode/
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
+
+# Cargo.lock is intentionally tracked for this application.

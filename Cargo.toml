@@ -1,0 +1,9 @@
+[package]
+name = "ST-Link_V2_Driver_Manager_ARM64"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+eframe = "0.31"
+rfd = "0.15"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
